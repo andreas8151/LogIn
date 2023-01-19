@@ -1,8 +1,4 @@
-const express = require("express");
-const app = express();
-const PORT = 3000;
-const bodyParser = require("body-parser");
-const cors = require("cors");
+
 const knex = require("knex")({
   client: "mysql2",
   connection: {
